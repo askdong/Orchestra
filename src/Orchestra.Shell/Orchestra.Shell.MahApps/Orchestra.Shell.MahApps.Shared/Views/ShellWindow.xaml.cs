@@ -34,7 +34,7 @@ namespace Orchestra.Views
 
             MahAppsHelper.ApplyTheme();
 
-            statusBar.Background = ThemeHelper.GetAccentColorBrush(AccentColorStyle.AccentColor4);
+            //statusBar.Background = ThemeHelper.GetAccentColorBrush(AccentColorStyle.AccentColor4);
 
             serviceLocator.RegisterInstance(pleaseWaitProgressBar, "pleaseWaitService");
 
